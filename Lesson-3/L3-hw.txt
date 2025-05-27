@@ -1,0 +1,34 @@
+What is the purpose of the "Applied Steps" pane in Power Query?
+How do you remove duplicate rows in Power Query?
+What does the "Filter" icon do in Power Query?
+How would you rename a column from "CustID" to "CustomerID"?
+What happens if you click "Close & Apply" in Power Query?
+Remove all rows where Quantity is less than 2.
+Split the OrderDate column into separate "Year," "Month," and "Day" columns.
+Replace all "Mouse" entries in the Product column with "Computer Mouse."
+Sort the table by OrderDate (newest first).
+How would you handle null values in the Price column?
+Write custom M-code to add a column calculating TotalSpent = Quantity * Price.
+Group the table by CustID to show total spending per customer.
+Fix inconsistent date formats (e.g., 01/10/2023 vs. 2023-01-10) in OrderDate.
+Create a conditional column: Label orders as "High Value" if Price > 100.
+Optimize the query to reduce refresh time (e.g., remove unused columns early).
+
+-----
+
+Answers
+1. To show what steps have been applied so far  to a dataset
+2. Choose remove rows in the tab and go to remove duplicates
+3. Filters refine the dataset by including or excluding rows based on the criteria set, updating the query output dynamically
+4. Go to Query editor, click on header and F2
+5. It closes the query editor window and apllies changes made in that window 
+6. Go to filter on the header and choose the option numberfilters>greater than or equal to, set the value 2
+7. ...done
+8. ...done
+9. ...done
+10. ...done
+11. ...done
+12. ...done
+13. ...done partly (couldnt change the type of new date)
+14. ...done
+15. ...done
