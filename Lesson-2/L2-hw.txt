@@ -1,0 +1,45 @@
+Questions:
+
+List three data sources Power BI can connect to.
+What is the first step to import data into Power BI Desktop?
+How do you refresh imported data in Power BI?
+What file formats can Power BI import directly? (Name two.)
+What does the "Navigator" window show after selecting a data source?
+Import Sales_Data.csv and load only the "Product" and "Price" columns.
+How would you change OrderDate to a date format during import?
+What is the difference between "Load" and "Transform Data" in the import dialog?
+Why might you see an error when connecting to a SQL database? (Name one reason.)
+How do you replace a data source after importing it?
+Write the M-code to import only rows where Quantity > 1.
+How would you change the data source if Sales_Data.csv changed?
+Troubleshoot: Your CSV import fails due to a "mixed data type" error—how do you fix it?
+Connect to a live SQL database with parameters (e.g., filter by year).
+How would you automate data imports using Power BI and Power Automate?
+-----
+Answers:
+1. MSSQL(MySQL, PostgreSQL) database, Excel and Sharepoint files
+2. To click on button get data on the home tab
+3. Click refresh button on the tab
+4. Excel(.xlsx) and CSV(.csv)
+5. Shows a preview of the data source's contents
+6. ...
+7. Using "Transform data" on "Navigator" and going to Query editor to set specific datatype for each column
+8. Load directly transfers the data to powerbi but using transform we can adjust datastructure, columns and etc. before even loading it
+9. Having a spelling mistake in server or database name
+10. Go to Query editor>Advanced editor then change the source of the file in the M-code
+11. let
+    Source = Csv.Document(File.Contents("[source]")),
+    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    #"Filtered Rows" = Table.SelectRows(#"Promoted Headers", each [Quantity] > 1)
+in
+    #"Filtered Rows"
+12. Go to advanced editor and update the file path
+13. Go to transform and manually set new datatypes for the problematic columns
+14. ...
+15. In Power BI Service, we can publish the report
+In Power Automate, creating a flow:
+Using a trigger to schedule the import
+Adding an action like "Refresh a dataset" (by Power BI connector), selecting the dataset in the workspace
+Configure the flow to run at desired intervals (hourly, daily, weekly...)
+Ensure the data source supports automatic refresh (cloud-based sources for example)
+Save and test the flow to confirm the dataset refreshes as scheduled
