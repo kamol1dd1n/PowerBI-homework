@@ -1,0 +1,46 @@
+What is Power BI, and what are its three main components?
+Name two business use cases for Power BI dashboards.
+How do you download and install Power BI Desktop?
+What is the difference between Power BI Desktop and Power BI Service?
+What file extension does a Power BI project use?
+Explain the role of Power Query in Power BI.
+Why would a business prefer Power BI over Excel for reporting?
+Describe one limitation of the free version of Power BI.
+What is a "published report" in Power BI Service?
+How does Power BI Mobile enhance accessibility?
+Compare Power BI with Tableau—pros and cons.
+Explain how Power BI integrates with Azure services.
+What are "gateways" in Power BI, and when are they needed?
+How would you convince a company to adopt Power BI? (ROI argument)
+What security features does Power BI offer for sensitive data?
+
+---Answers
+
+1. Power BI is a tool that we use to present the analysed data in a reader-friendly way with the help of visual aids. Three main components of PowerBI include: Power BI desktop, service and mobile apps
+2. First case: FilmFlix is a growing streaming platform seeking to understand broader audience preferences and market trends. Rather than relying on proprietary data alone, the analytics team supplements their insights with publicly available information from IMDb. Leadership has tasked you to deliver automated, actionable reports on viewer-relevant metrics—such as the most popular genres, director and actor performance, and box office success—so they can make data-driven decisions about licensing and original content production
+Second case: SteelWorks, a mid-sized manufacturing company producing industrial components, aims to streamline its supply chain, reduce costs, and improve delivery times. The company has data scattered across ERP systems (e.g., SAP for inventory), logistics platforms (e.g., shipping records), and external sources like supplier performance metrics and market pricing trends from public industry reports
+3. By downloading it from the web: https://www.microsoft.com/en-us/download/details.aspx?id=58494, or directly from windows store
+4. Power BI desktop is considered to be local, and Power BI service is an online platform where chosen ones can have access and see works of developers without downloading them in a file format
+5. pbip
+6. Power Query helps us to transform the raw data and do some pre-work on it
+7. First the amount of data we are working with and second more interactive visualizations that power bi can provide
+8. Users cannot share their work with others or publish them to other workspaces unless they have a premium power bi
+9. Published report is a finished work which was loaded to a cloud service for future use
+10. With the mobile phone being carried everywhere at anytime, power BI mobile users can interact with their data without limitations to laptop or any other devices
+11. Pros:
+Power BI offers a lower-cost entry point with a free desktop version 
+Seamlessly integrates with Microsoft products like Excel, Azure, and Office 365, enhancing workflows in Microsoft-centric environments
+Cons:
+While user-friendly for basics, mastering DAX and complex modeling can be challenging
+Offers less flexibility in visual design and interactivity compared to competitors, which can restrict advanced dashboard creativity
+Tableau
+Pros:
+Provides highly customizable, interactive, and visually appealing dashboards with a wide range of chart options
+Large user community with extensive resources, tutorials, and forums for learning and troubleshooting
+Cons:
+Tableau’s licensing (e.g., Tableau Creator) is more expensive
+Can experience slower performance when handling massive datasets without proper optimization or server support.
+12. Power BI integrates with Azure Data Lake for scalable data storage and analysis. It connects to Azure SQL Database for real-time data querying. Azure Machine Learning enhances Power BI with predictive analytics capabilities
+13. Gateways are needed to refresh the data we are working on and give up-to-date information on vizualisations we are providing
+14. Power BI delivers strong ROI with affordable licensing (~$10/user/month) compared to pricier competitors like Tableau. Its seamless integration with Microsoft 365 and Azure streamlines workflows, cutting reporting time by up to 50%. Real-time dashboards and AI insights drive faster, smarter decisions, boosting revenue by 10-15% in the first year. Companies save hundreds of hours annually on manual tasks, recouping costs quickly. Adopt Power BI to transform data into a low-cost, high-impact strategic asset.
+15. Power BI offers robust security for sensitive data: role-based access control restricts data visibility, row-level security filters data by user, and data encryption protects data at rest and in transit. Integration with Azure Active Directory ensures secure authentication, while sensitivity labels classify and protect confidential information. Compliance with GDPR, HIPAA, and ISO standards supports secure data handling
