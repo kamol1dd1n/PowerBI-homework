@@ -1,0 +1,33 @@
+What is the difference between "Merge" and "Append" in Power Query?
+How do you split a "Full Name" column into "First Name" and "Last Name"?
+What is "Pivot Columns" used for?
+How do you undo a step in Power Query?
+What is the purpose of "Reference" vs. "Duplicate" in queries?
+Merge Orders.csv and Customers.xlsx on CustID (inner join).
+Pivot the Product column to show total Quantity per product.
+Append two tables with identical columns (e.g., Orders_Jan.csv + Orders_Feb.csv).
+Use "Fill Down" to replace nulls in the Email column with the previous value.
+Extract the domain (e.g., "example.com") from the Email column.
+Write M-code to merge queries dynamically based on a parameter (e.g., JoinType = "Inner").
+Unpivot a table with columns like "Jan_Sales," "Feb_Sales" into a "Month" and "Sales" format.
+Handle errors in a custom column (e.g., division by zero) using try...otherwise.
+Create a function in Power Query to clean phone numbers (e.g., remove dashes).
+Optimize a query with 10+ steps—identify bottlenecks and simplify.
+
+----
+1. "Merge" as inner join on specific key(eg CustID) and "Append" just pastes two tables according to columns vertically, no key needed
+2. In qery editor split column by delimeter and enter a space, choose left-most delimeter and ENTER
+3. Used for pivoting columns
+4. On the right bar, theres a window showing steps, click X and step is "undone"
+5. Duplicate - fully copies an existing table, changes in original wouldnt change the Duplicate
+Reference - generates from the output of the original, change in original's output will effect the reference table
+6. ...done
+7. ...done
+8. ...no such tables (appended what i have)
+9. ...done(fill up)
+10. ...done(with split column)
+11. 
+12. no such tables(unpivoted what i have)
+13. ...done
+14.
+15.
